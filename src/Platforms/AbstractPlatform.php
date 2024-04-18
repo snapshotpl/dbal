@@ -2080,6 +2080,10 @@ abstract class AbstractPlatform
 
     /**
      * This is for test reasons, many vendors have special requirements for dummy statements.
+     *
+     * @param literal-string $expression
+     * 
+     * @return literal-string
      */
     public function getDummySelectSQL(string $expression = '1'): string
     {
